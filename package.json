@@ -1,0 +1,33 @@
+{
+  "name": "alurarestcomnodejs",
+  "version": "1.0.0",
+  "description": "Rest com NodeJS: API com Express e MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brtec/learn-alura-rest-com-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Bruno Rezende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brtec/learn-alura-rest-com-nodejs/issues"
+  },
+  "homepage": "https://github.com/brtec/learn-alura-rest-com-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
